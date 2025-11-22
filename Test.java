@@ -230,7 +230,7 @@ public class Test {
                         System.out.println("\t            Welcome to Dormitory Booking.");
                         boolean foundToBook = false;
                         while (!foundToBook) {
-                            System.out.print("Do you want to make a booking or check existing booking? (Book/Check) : ");
+                            System.out.print("Do you want to make a booking or check existing booking? (Book/Check Booking) : ");
                             String input = kb.next();
                             System.out.println();
                             if (input.equalsIgnoreCase("Book")) {
@@ -350,7 +350,7 @@ public class Test {
                                         break;
                                     }
                                 }
-                            } else if (input.equalsIgnoreCase("check")) { //ถ้าต้องการตรวจสอบ
+                            } else if (input.equalsIgnoreCase("Check Booking")) { //ถ้าต้องการตรวจสอบ
                                 for (Room room : rooms_verEng) {//ให้วนค่า room ทั้งหมดใน rooms_verEng
                                     boolean foundCon = false;
                                     while (!foundCon) {
